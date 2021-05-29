@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="constant=0.5;parallelA=0;parallelB=0;height=0">
+
+<h2>Angular Trapezium area Calculator</h2>
+
+<div>Parallel Line A: <input type="number" ng-model="parallelA"></div>
+<div>Parallel Line B: <input type="number" ng-model="parallelB"></div>
+<div>Height: <input type="number" ng-model="height"></div>
+
+<p><b>Area is:</b> {{constant * (parallelA + parallelB)* height}}</p>
+
+</div>
+
+</body>
+</html>
