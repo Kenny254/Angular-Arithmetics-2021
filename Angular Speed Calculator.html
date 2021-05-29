@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="distance=0;time=0">
+
+<h2>Angular Speed Calculator</h2>
+
+Kilometres: <input type="number" ng-model="distance">
+Time in Hours: <input type="number" ng-model="time">
+
+<p><b>Speed :</b> {{ distance * time}} KM/H</p>
+
+</div>
+
+</body>
+</html>
