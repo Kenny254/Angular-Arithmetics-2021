@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="pi=3.142;diameter=0">
+
+<h2>Angular circumference Calculator</h2>
+
+Pi: <input type="number" ng-model="pi">
+Diameter: <input type="number" ng-model="diameter">
+
+<p><b>Circumference:</b> {{pi * diameter}}</p>
+
+</div>
+
+</body>
+</html>
