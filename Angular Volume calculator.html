@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="length=0; width=0; height=0">
+
+<h2>Angular Volume
+Calculator</h2>
+
+<div>Length: <input type="number" ng-model="length"></div>
+<div>Width: <input type="number" ng-model="width"></div>
+<div>Height: <input type="number" ng-model="height"></div>
+
+<p><b>Volume in cm cubic:</b> {{length * width * height}}</p>
+
+</div>
+
+</body>
+</html>
