@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="pi=3.142;radius=0">
+
+<h2>Angular circle area Calculator</h2>
+
+Pi: <input type="number" ng-model="pi">
+Radius: <input type="number" ng-model="radius">
+
+<p><b>Circumference:</b> {{pi * radius * radius}}</p>
+
+</div>
+
+</body>
+</html>
